@@ -26,7 +26,7 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/JAVA_SW/dev_tool/sqldeveloper-22.2.0.173.2018-x64/sqldeveloper/jdbc/lib/ojdbc8.jar">
+	<classpathentry kind="lib" path="D:/JAVA_SW/dev_tool/sqldeveloper/jdbc/lib/ojdbc8.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
