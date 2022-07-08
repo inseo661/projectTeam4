@@ -9,6 +9,6 @@
 	Hello world!  
 </h1>
 
-<P> fucking github </P>
+<P> github </P>
 </body>
 </html>
