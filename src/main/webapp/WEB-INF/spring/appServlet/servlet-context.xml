@@ -23,6 +23,21 @@
 	
 	<context:component-scan base-package="org.paldo.controller" />
 	
+	 <!-- 인터셉터 적용 -->
+    <interceptors>
+        <interceptor>
+            <mapping path="/member/login.do"></mapping>
+            <beans:bean id="loginIntreceptor" class="org.paldo.interceptor.LoginInterceptor"></beans:bean>
+        </interceptor>
+        <interceptor>
+            <mapping path="/admin/**"></mapping>
+            <beans:bean id="AdminIntreceptor" class="org.paldo.interceptor.AdminInterceptor"></beans:bean>
+        </interceptor> 
+    </interceptors>
+	
+	<!-- 업로드 관련 빈 -->
+	<beans:bean id="multipartResolver" class="org.springframework.web.multipart.support.StandardServletMultipartResolver"></beans:bean>	
+	
 	
 	
 </beans:beans>

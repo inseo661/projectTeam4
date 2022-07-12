@@ -8,6 +8,10 @@ import lombok.Data;
 @Data
 public class ShopAdminVO {
 
+	private ShopAdminVO() {
+		
+	}
+	
 	private String adminId;
 	private String adminPw;
 	private String adminName;

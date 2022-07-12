@@ -13,7 +13,7 @@ public class ShopProductVO {
 	private String productName;
 	private int stock;
 	private int price;
-	private int discount;
+	private double discount;
 	private int lastPrice;
 	private Date regDate;
 	private Date lastUpdate;

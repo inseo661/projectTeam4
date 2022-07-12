@@ -20,12 +20,12 @@
 			<div class="login_wrap">
 				<div class="id_wrap">
 					<div class="id_input_box">
-						<input class="id_input" name="memberId">
+						<input class="id_input" name="adminId">
 					</div>
 				</div>
 				<div class="pw_wrap">
 					<div class="pw_input_box">
-						<input class="pw_input" name="memberPw">
+						<input class="pw_input" name="adminPw">
 					</div>
 				</div>
 				<c:if test="${result == 0 }">
@@ -42,7 +42,7 @@
 		$(".login_button").click(function() {
 
 			/* 로그인 메서드 서버 요청 */
-			$("#login_form").attr("action", "/member/login.do");
+			$("#login_form").attr("action", "/login/admin.do");
 			$("#login_form").submit();
 
 		});
